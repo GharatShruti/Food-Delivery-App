@@ -17,7 +17,13 @@ export default function Home() {
               <p className="card-text">
                 This is some important text.
               </p>
-              <div className="container"> </div>
+              <div className="container w-100">
+                <select className="m-2 h-100 w-100 bg-success">
+                  {Array.from(Array(6),(e,i)=>{
+                    return (
+                    <option key={i+1} value={i+1}>{i+1}</option>
+                    )
+                  })}</select> </div>
             </div>
           </div>
         </div>
