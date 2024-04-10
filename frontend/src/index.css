@@ -3,3 +3,7 @@ body{
 font-family: 'NHaasGroteskDSPro-65MD';  
 }
 
+#carousal{
+  max-height: 500px;
+}
+

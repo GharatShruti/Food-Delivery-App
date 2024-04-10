@@ -1,4 +1,3 @@
-
 export default function Card() {
   return (
     <div>
@@ -7,7 +6,11 @@ export default function Card() {
           className="card mt-3"
           style={{ width: "18rem", maxHeight: "360PX" }}
         >
-          <img src="..." className="card-img-top" alt="..." />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-5HbDw8AZEG-E9kwj6Wb0iDvsnvEVi-g0JQ&s"
+            className="card-img-top"
+            alt="..."
+          />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
             <p className="card-text">This is some important text.</p>
