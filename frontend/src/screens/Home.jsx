@@ -18,12 +18,20 @@ export default function Home() {
                 This is some important text.
               </p>
               <div className="container w-100">
-                <select className="m-2 h-100 w-100 bg-success">
+                <select className="m-2 h-100 bg-success rounded">
                   {Array.from(Array(6),(e,i)=>{
                     return (
                     <option key={i+1} value={i+1}>{i+1}</option>
                     )
-                  })}</select> </div>
+                  })}</select>
+                  
+                  <select className="m-2 h-100 bg-success rounded">
+                    <option value="half">Half</option>
+                    <option value="full">Full</option>
+
+                  </select>
+
+                   </div>
             </div>
           </div>
         </div>
