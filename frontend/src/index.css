@@ -1,6 +1,7 @@
 body{
   margin: 0;
-font-family: 'NHaasGroteskDSPro-65MD';  
+font-family: 'NHaasGroteskDSPro-65MD'; 
+align-items: center; 
 }
 
 #carousal{
