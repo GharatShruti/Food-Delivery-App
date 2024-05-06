@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const mongoURI = 'mongodb://localhost:27017/foodexpress';
 
-const mongoDB = () => {
-    mongoose.connect(mongoURI)
+const mongoDB = async() => {
+    await mongoose.connect(mongoURI)
         .then(() => {
             console.log('Connected to MongoDB');
         })
