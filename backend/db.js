@@ -8,6 +8,7 @@ const mongoDB = async() => {
         }
         else{
             console.log('Connected');
+            const fetched_data = await mongoose.connection.db.collection("")
         }
     });
         
